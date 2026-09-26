@@ -1,0 +1,14 @@
+# preview / tooling (not part of the profile)
+node_modules/
+_preview/
+preview*.html
+preview*.png
+*.py
+*.mjs
+package.json
+package-lock.json
+
+# downloaded badge cache in assets/ — keep only the hand-built ones
+assets/*.svg
+!assets/banner.svg
+!assets/footer.svg
